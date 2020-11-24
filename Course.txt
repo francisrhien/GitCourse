@@ -27,7 +27,12 @@ change previous commit --> git commit --ammend -m "Commit"
 unstage file --> git restore --staged "file"
 unmodify file --> git restore "file"
 
-
+create clone of repository --> git clone <url> (Example: https://github.com/<username>/<repositoryname>.git)
+change directory --> cd ./<repositoryname>
+push file to online repository --> git push
+create new branch --> git branch <branchname>
+create new branch based on existing branch <branchname> <basebranch>
+switch to another branch --> git switch <branchname>
 
 
 
