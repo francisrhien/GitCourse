@@ -27,7 +27,8 @@ change previous commit --> git commit --ammend -m "Commit"
 unstage file --> git restore --staged "file"
 unmodify file --> git restore "file"
 
-
+Create new branch based on head --> $ git branch <new-branch>
+Create new branch based on an existing branch --> $ git branch <new-branch> <base-branch>
 
 
 
